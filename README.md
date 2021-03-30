@@ -31,6 +31,8 @@ Then to build the machine learning model, we are going to make use of the Passiv
 1. Wrap up the project
 2. Write up the final report
 
+![DS Project Flow Chart](https://user-images.githubusercontent.com/60633000/113054079-ff47dc00-9176-11eb-83e1-05d4a2bc0e05.png)
+
 References
 - Agudelo G.E.R., Parra O.J.S., Velandia J.B. (2018) Raising a Model for Fake News Detection		Using Machine Learning in Python. In: Al-Sharhan S. et al. (eds) Challenges and			Opportunities in the Digital Era. I3E 2018. Lecture Notes in Computer Science, vol		11195. Springer, Cham.https://doi-org.libproxy.temple.edu/10.1007/978-3-030-02131 -3_52
 - Zoleikha Jahanbakhsh-Nagadeh, Mohammad-Reza Feizi-Derakhshi, Arash Sharifi, A			semi-supervised model for Persian rumor verification based on content information,		Multimedia Tools and Applications, 10.1007/s11042-020-10077-3, (2020).
