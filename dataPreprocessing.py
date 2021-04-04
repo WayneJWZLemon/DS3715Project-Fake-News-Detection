@@ -1,9 +1,5 @@
 import pandas as pd
 
-pdFake = pd.read_csv('Kaggle-Clement-Bisaillon-Fake.csv')
+pd1 = pd.read_csv('extracted.csv')
 print("Basic info about the fake news dataset from Clement Bisaillon")
-pdFake.info()
-
-pdTrue = pd.read_csv('Kaggle-Clement-Bisaillon-True.csv')
-print("Basic info about the true news dataset from Clement Bisaillon")
-pdTrue.info()
+print(pd1)
