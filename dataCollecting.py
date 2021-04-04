@@ -1,21 +1,21 @@
 import newspaper
 import pandas as pd
 
-homeUrlYahoo = "https://news.yahoo.com/"
-homeUrlNYtimes = "https://www.nytimes.com/"
-homeUrlWallSt = "https://www.wsj.com/"
-homeUrlWaPost = "https://www.washingtonpost.com/"
+homeUrlCnn = "https://www.cnn.com/"
+homeUrlFox = "https://www.foxnews.com/"
+homeUrlNbc = "https://www.nbcnews.com/"
+homeUrlBuzz = "https://www.buzzfeednews.com/"
 
-yahoo = newspaper.build(homeUrlYahoo, language='en', memoize_articles=False)
-nyTimes = newspaper.build(homeUrlNYtimes, language='en', memoize_articles=False)
-wallSt = newspaper.build(homeUrlWallSt, language='en', memoize_articles=False)
-waPost = newspaper.build(homeUrlWaPost, language='en', memoize_articles=False)
+cnn = newspaper.build(homeUrlCnn, language='en', memoize_articles=False)
+fox = newspaper.build(homeUrlFox, language='en', memoize_articles=False)
+nbc = newspaper.build(homeUrlNbc, language='en', memoize_articles=False)
+buzz = newspaper.build(homeUrlBuzz, language='en', memoize_articles=False)
 
 news_title = []
 news_text = []
 news_date =[]
 
-news = yahoo.articles
+news = cnn.articles
 
 for i in range(len(news)):
     paper = news[i]
@@ -31,7 +31,7 @@ for i in range(len(news)):
         news_date.append('NULL')
         continue
 
-news = nyTimes.articles
+news = fox.articles
 
 for i in range(len(news)):
     paper = news[i]
@@ -47,7 +47,7 @@ for i in range(len(news)):
         news_date.append('NULL')
         continue
 
-news = wallSt.articles
+news = nbc.articles
 
 for i in range(len(news)):
     paper = news[i]
@@ -63,7 +63,7 @@ for i in range(len(news)):
         news_date.append('NULL')
         continue
 
-news = waPost.articles
+news = buzz.articles
 
 for i in range(len(news)):
     paper = news[i]
@@ -79,5 +79,9 @@ for i in range(len(news)):
         news_date.append('NULL')
         continue
 
-data = pd.DataFrame({'title': news_title, 'text':news_text, 'data':news_date})
-data.to_csv('extracted.csv', index=False, sep=',')
+print("length of the title list: ", str(len(news_title)))
+print("length of the text list: ", str(len(news_text)))
+print("length of the date list: ", str(len(news_date)))
+
+data = pd.DataFrame({'title': news_title, 'text':news_text, 'date':news_date})
+data.to_csv('extracted.csv', index=False)
