@@ -1,1 +1,2 @@
 find . -size +100M | cat >> .gitignore
+.DS_Store
