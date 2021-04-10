@@ -37,3 +37,8 @@ References
 - Agudelo G.E.R., Parra O.J.S., Velandia J.B. (2018) Raising a Model for Fake News Detection		Using Machine Learning in Python. In: Al-Sharhan S. et al. (eds) Challenges and			Opportunities in the Digital Era. I3E 2018. Lecture Notes in Computer Science, vol		11195. Springer, Cham.https://doi-org.libproxy.temple.edu/10.1007/978-3-030-02131 -3_52
 - Zoleikha Jahanbakhsh-Nagadeh, Mohammad-Reza Feizi-Derakhshi, Arash Sharifi, A			semi-supervised model for Persian rumor verification based on content information,		Multimedia Tools and Applications, 10.1007/s11042-020-10077-3, (2020).
 - Hands-On Python Deep Learning for Web by Anubhav Singh and Sayak					Paul https://github.com/PacktPublishing/Hands-On-Python-Deep-Learning-for-Web
+
+## Datasets
+* [GitHub-several27-FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus)
+* [Kaggle-Clément Bisaillon-Fake and real news dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+* [Dataset-Data-Falir](https://drive.google.com/file/d/1er9njtlua3qnruyhfzun0xusoic4a-_q/view)
