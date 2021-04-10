@@ -39,6 +39,6 @@ References
 - Hands-On Python Deep Learning for Web by Anubhav Singh and Sayak					Paul https://github.com/PacktPublishing/Hands-On-Python-Deep-Learning-for-Web
 
 ## Datasets
-*[GitHub-several27-FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus)
-*[Kaggle-Clément Bisaillon-Fake and real news dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
-*[Dataset-Data-Falir](https://drive.google.com/file/d/1er9njtlua3qnruyhfzun0xusoic4a-_q/view)
+* [GitHub-several27-FakeNewsCorpus](https://github.com/several27/FakeNewsCorpus)
+* [Kaggle-Clément Bisaillon-Fake and real news dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
+* [Dataset-Data-Falir](https://drive.google.com/file/d/1er9njtlua3qnruyhfzun0xusoic4a-_q/view)
